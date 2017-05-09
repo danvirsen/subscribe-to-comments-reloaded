@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Subscribe to Comments Reloaded\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-27 23:29-0600\n"
-"PO-Revision-Date: 2017-04-27 23:29-0600\n"
-"Last-Translator: Reedyseth - Israel Barragan <reedyseth@gmail.com>\n"
+"POT-Creation-Date: 2017-05-09 10:40+0200\n"
+"PO-Revision-Date: 2017-05-09 10:55+0200\n"
+"Last-Translator: Dan Virsén <hej@poast.se>\n"
 "Language-Team: Terese Mörtvik <terese.mortvik@tiarin.se>\n"
 "Language: sv_SE\n"
 "MIME-Version: 1.0\n"
@@ -13,7 +13,7 @@ msgstr ""
 "X-Poedit-KeywordsList: __;_e\n"
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: er, nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 1.8.7.1\n"
+"X-Generator: Poedit 2.0.1\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: options/index.php:59 utils/stcr_manage.php:230 utils/stcr_manage.php:412
@@ -175,15 +175,15 @@ msgstr "Uppdatera flera"
 
 #: options/panel1.php:28 options/panel1.php:29 options/panel1.php:30
 msgid "email address"
-msgstr "Avsändarens adress"
+msgstr "avsändarens e-postadress"
 
 #: options/panel1.php:34 options/panel1.php:35 options/panel1.php:36
 msgid "optional - new email address"
-msgstr "Oppdater e-postadresse"
+msgstr "valfri - ny e-postadress"
 
 #: options/panel1.php:49
 msgid "More info"
-msgstr ""
+msgstr "Mer information"
 
 #: options/panel1.php:55
 msgid ""
@@ -289,11 +289,11 @@ msgstr ""
 
 #: options/panel1.php:170 templates/author.php:61 templates/user.php:73
 msgid "All Comments"
-msgstr ""
+msgstr "Alla kommentarer"
 
 #: options/panel1.php:171 templates/author.php:62 templates/user.php:74
 msgid "Unconfirmed"
-msgstr ""
+msgstr "Obekräftad"
 
 #: options/panel1.php:172 templates/author.php:63 templates/user.php:75
 msgid "Inactive"
@@ -400,15 +400,15 @@ msgstr ""
 
 #: options/panel10.php:119
 msgid "Hourly"
-msgstr ""
+msgstr "Timvis"
 
 #: options/panel10.php:120
 msgid "Twice Daily"
-msgstr ""
+msgstr "Två gånger dagligen"
 
 #: options/panel10.php:121
 msgid "Daily"
-msgstr ""
+msgstr "Dagligen"
 
 #: options/panel10.php:123
 msgid "If enabled, StCR will auto clean your information every day."
@@ -425,11 +425,11 @@ msgstr ""
 
 #: options/panel10.php:134
 msgid "Clean"
-msgstr ""
+msgstr "Rensa"
 
 #: options/panel10.php:141 options/panel10.php:144
 msgid "System Information"
-msgstr ""
+msgstr "Systeminformation"
 
 #: options/panel10.php:158 options/panel2.php:230 options/panel3.php:253
 #: options/panel4.php:283 options/panel5.php:219
@@ -494,7 +494,7 @@ msgstr "Aktivera standardmarkeringsruta"
 
 #: options/panel2.php:91 options/panel2.php:120
 msgid "All new comments"
-msgstr ""
+msgstr "Alla nya kommentarer"
 
 #: options/panel2.php:92 options/panel2.php:121
 msgid "Replies to this comment"
@@ -518,7 +518,7 @@ msgstr "Välj som standard"
 
 #: options/panel2.php:119
 msgid "None"
-msgstr ""
+msgstr "Inga"
 
 #: options/panel2.php:124
 msgid ""
@@ -947,7 +947,7 @@ msgid ""
 "of text/plain"
 msgstr ""
 "Om aktiverat skickar detta alternativ ut e-postmeddelanden med innehållet = "
-"text/html istället för text/plain."
+"text/html istället för text/plain"
 
 #: options/panel5.php:145
 msgid "HTMLify links in emails"
@@ -995,7 +995,7 @@ msgstr ""
 
 #: options/panel5.php:201 options/panel5.php:212
 msgid "Generate"
-msgstr ""
+msgstr "Generera"
 
 #: options/panel5.php:209
 msgid ""
@@ -1081,9 +1081,7 @@ msgstr ""
 
 #: options/panel9.php:11
 msgid "Support Subscribe to Comments Reloaded"
-msgstr ""
-"Behöver du hjälp med att använda Subscribe to Comments Reloaded? Besök det "
-"officiella"
+msgstr "Stöd Subscribe to Comments Reloaded"
 
 #: options/panel9.php:12
 msgid ""
@@ -1098,15 +1096,15 @@ msgstr "Titel"
 
 #: templates/author.php:70 templates/user.php:82
 msgid "Subscription Date"
-msgstr ""
+msgstr "Skapad"
 
 #: templates/author.php:71
 msgid "Subscription Email"
-msgstr ""
+msgstr "E-post"
 
 #: templates/author.php:72 templates/user.php:84
 msgid "Subscription Status"
-msgstr ""
+msgstr "Status"
 
 #: templates/author.php:88 templates/user.php:104
 msgid "Select all"
@@ -1118,11 +1116,11 @@ msgstr "Invertera val"
 
 #: templates/author.php:92 templates/user.php:110
 msgid "Choose your action"
-msgstr ""
+msgstr "Välj handling"
 
 #: templates/author.php:95 templates/user.php:113
 msgid "All comments"
-msgstr ""
+msgstr "Alla kommentarer"
 
 #: templates/author.php:96 templates/user.php:114
 #: wp_subscribe_reloaded.php:1122
@@ -1132,7 +1130,7 @@ msgstr "Endast svar på mina kommentarer"
 #: templates/author.php:102 templates/confirm.php:28
 #: templates/request-management-link.php:114 templates/user.php:124
 msgid "Return to Post"
-msgstr ""
+msgstr "Tillbaka till inlägget"
 
 #: templates/author.php:107 templates/one-click-unsubscribe.php:30
 #: templates/user.php:128
@@ -1144,6 +1142,8 @@ msgid ""
 "Woohaa the link to manage your subscriptions has expired, don't worry, just "
 "enter your email below and a new link will be send."
 msgstr ""
+"Hoppsan! Länken för att administrera dina prenumerationer har gått ut. Ange "
+"din e-postadress igen så skickas en ny länk till dig."
 
 #: templates/key_expired.php:74 templates/request-management-link.php:106
 #: templates/subscribe.php:112
@@ -1297,12 +1297,10 @@ msgid ""
 "Please confirm your request by clicking on this link:\n"
 "[confirm_link]"
 msgstr ""
-"Du, eller någon med din adress, har begärt att prenumerera på kommentarer "
-"till följande inlägg: [post_permalink]\n"
-"Vänligen bekräfta prenumerationen genom att klicka på länken här nedanför:\n"
-"[confirm_link] \n"
-"Om länken inte går att klicka på, kopiera adressen och klistra in den i "
-"adressfönstret på din webbläsare."
+"Du har begärt att prenumerera på kommentarer till följande inlägg:\n"
+"[post_permalink]\n"
+"Vänligen bekräfta prenumerationen genom att klicka på länken nedan:\n"
+"[confirm_link]"
 
 #: utils/stcr_manage.php:246
 msgid "Manage your subscriptions on [blog_name]"
@@ -1458,7 +1456,7 @@ msgstr ""
 #: utils/stcr_upgrade.php:408
 msgid ""
 "Please consider to make a donation to support the plugin, you can donate via "
-"<a href=\"\n"
+"<a href=\"\r\n"
 "https://www.paypal.com/cgi-bin/webscr?"
 "cmd=_donations&business=XF86X93FDCGYA&lc=US&item_name=Datasoft"
 "%20Engineering&item_number=DI%2dSTCR&currency_code=USD&bn=PP%2dDonationsBF"
@@ -1614,7 +1612,7 @@ msgstr ""
 #: utils/stcr_upgrade.php:529
 msgid ""
 "Help to keep the support alive. You can donate via <i class=\"fa fa-paypal\" "
-"aria-hidden=\"true\"></i> <a href=\"\n"
+"aria-hidden=\"true\"></i> <a href=\"\r\n"
 "https://www.paypal.com/cgi-bin/webscr?"
 "cmd=_donations&business=XF86X93FDCGYA&lc=US&item_name=Datasoft"
 "%20Engineering&item_number=DI%2dSTCR&currency_code=USD&bn=PP%2dDonationsBF"
